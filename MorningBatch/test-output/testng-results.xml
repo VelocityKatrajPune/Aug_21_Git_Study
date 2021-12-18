@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Initailising browser]]>
+    </line>
+    <line>
+      <![CDATA[entering UseriD and Password]]>
+    </line>
+    <line>
+      <![CDATA[ErrorMSG matched TC is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-14T11:22:10 IST" name="Suite" finished-at="2021-12-14T11:22:19 IST" duration-ms="9926">
+    <groups>
+    </groups>
+    <test started-at="2021-12-14T11:22:10 IST" name="Test" finished-at="2021-12-14T11:22:19 IST" duration-ms="9926">
+      <class name="testClasses.Kite_APP_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testClasses.Kite_APP_Test@17497425]" started-at="2021-12-14T11:22:10 IST" name="launchBrowser" finished-at="2021-12-14T11:22:14 IST" duration-ms="4553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Initailising browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKite()[pri:0, instance:testClasses.Kite_APP_Test@17497425]" started-at="2021-12-14T11:22:14 IST" name="loginToKite" finished-at="2021-12-14T11:22:16 IST" duration-ms="1952" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[entering UseriD and Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToKite -->
+        <test-method signature="validateErrorMsg()[pri:0, instance:testClasses.Kite_APP_Test@17497425]" started-at="2021-12-14T11:22:16 IST" name="validateErrorMsg" finished-at="2021-12-14T11:22:19 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ErrorMSG matched TC is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateErrorMsg -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testClasses.Kite_APP_Test@17497425]" started-at="2021-12-14T11:22:19 IST" name="CloseBrowser" finished-at="2021-12-14T11:22:19 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testClasses.Kite_APP_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
